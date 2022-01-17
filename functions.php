@@ -14,3 +14,8 @@ function largest($numbers){
     echo "The largest number is: $currentLargest";
 }
 
+
+function removeDups($numbers){
+    echo "<br> Array with no duplicates: <br>";
+    print_r(array_unique($numbers));
+    }
